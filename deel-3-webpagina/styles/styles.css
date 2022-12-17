@@ -1,1 +1,103 @@
-/*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap');
+
+/*      Colors:
+#151E3F Space Cadet
+#030027 Oxford blue
+#F2F3D9 Beige
+#DC9E82 Antique Brass
+#C16E70 Fuzzy Wuzzy
+*/
+
+* {
+    font-family: 'Dosis', sans-serif;
+    color: #151E3F;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2F3D9;
+    box-sizing: border-box;
+}
+
+/* navigation */
+
+nav {
+    background-color: #030027;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: floralwhite;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 40px;
+    gap: 50px
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+/* title */
+
+body > div {
+    margin: 0 40px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+body > div > h1,
+body > div > h3 {
+    font-weight: 700;
+}
+
+/* content */
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+main > div {
+    display: flex;
+    align-items: flex-end;
+    flex-basis: 240px;
+    flex-shrink: 1;
+    flex-grow: 0;
+
+    background-color: #C16E70;
+    height: 310px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+main > div:first-child {
+    margin-left: 40px;
+}
+
+main > div:last-child {
+    margin-right: 40px;
+}
+
+main > div > p {
+    font-weight: 600;
+    text-align: center;
+}
+

@@ -1,1 +1,99 @@
-/*Schrijf hier jouw CSS*/
+.opdracht-1 {
+    /*
+    border: 3px solid red;
+    */
+}
+
+.opdracht-1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* opdracht 2 */
+
+.opdracht-2 {
+    /*
+    border: 3px solid red;
+    */
+}
+
+.opdracht-2 ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.opdracht-2 ul li {
+    flex-basis: 33%;
+}
+
+/* opdracht 3 */
+
+.opdracht-3 {
+    /*
+    border: 3px solid red;
+    */
+}
+
+.opdracht-3 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#l1 {
+    align-self: flex-start;
+}
+
+#l2 {
+    align-self: center;
+}
+
+#l3 {
+    align-self: flex-end;
+}
+
+/* opdracht 4 */
+
+.opdracht-4 {
+    /*
+    border: 2px solid red;
+    */
+}
+
+.opdracht-4 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+/* opdracht 5 */
+
+.opdracht-5 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.opdracht-5 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.li1 {
+    align-self: flex-start;
+}
+
+.li2 {
+    align-self: center;
+}
+
+.li3 {
+    align-self: flex-end;
+}
